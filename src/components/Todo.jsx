@@ -1,4 +1,6 @@
 import React from 'react'
+import { RiCloseCircleLine } from 'react-icons/ri'
+import { TiTick } from 'react-icons/ti'
 
 
 export default function Todo({ todos, isCompleted, removeTask }) {
@@ -6,12 +8,12 @@ export default function Todo({ todos, isCompleted, removeTask }) {
 
 
     return todos.map((todo, index) => (
-        <div className={todo.isCompleted ? 'complete task-div' : 'task-div'} key={index}>
-            <div className="flex ml-4">{todo.text}
 
-                <button onClick={() => { removeTask(todo.id) }} className="px-4">×</button>
-                <input onClick={() => { isCompleted(todo.id) }} className="px-4" type="checkbox" defaultChecked={`${todo.isCompleted ? "checked" : ""}`} />
-            </div>
+        <div className={todo.isCompleted ? 'complete task-div' : 'task-div'} key={index}>
+            <li className="flex ml-4 p-4 mt-10">{todo.text}
+                <TiTick className="ml-2" onClick={() => { isCompleted(todo.id) }}></TiTick>
+                <RiCloseCircleLine className="ml-2" onClick={() => { removeTask(todo.id) }}></RiCloseCircleLine>
+            </li>
         </div>
     ));
 }
