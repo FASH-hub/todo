@@ -14,7 +14,7 @@ export default function TodoForm(props) {
         props.addTask({
             id: Math.floor(Math.random() * 1000),
             text: input,
-            isDone: false
+            isCompleted: false
 
         })
         setInput('')

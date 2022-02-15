@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <header className=" App-header">
-        <h1 class="text-5xl text-center text-white ">My todo list app</h1>
+        <h1 className="text-5xl text-center text-white ">My todo list app</h1>
       </header>
       <TodoList />
     </>
