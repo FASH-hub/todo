@@ -2,7 +2,7 @@
     "name": "my-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://fash-hub.github.io/todo/",
+    "homepage": "https://fash-hub.github.io/todo-list-app/",
     "dependencies": {
         "-": "^0.0.1",
         "@testing-library/jest-dom": "^5.16.2",
