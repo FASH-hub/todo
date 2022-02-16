@@ -6,4 +6,4 @@ The project will be improved progressively
 ![preview](./images/preview.png)
 
 Meanwhile, you can preview the latest version on the link below
-[github page](https://fash-hub.github.io/todo/)
+[github page](https://fash-hub.github.io/todo-list-app/)
