@@ -11,7 +11,7 @@ export default function Todo({ todos, isCompleted, removeTask }) {
 
             <div className={todo.isCompleted ? "line-through" : ""} key={index}>
                 <li className="flex ml-4 p-4 mt-2 ">{todo.text}
-                    <button className="ml-2 bg-red-900 text-white w-5 h-5" onClick={() => { removeTask(todo.id) }}>X</button>
+                    <button className="ml-2 bg-zinc-800 text-white w-5 h-5 rounded" onClick={() => { removeTask(todo.id) }}>X</button>
                     <input className="ml-2 w-7 h-5" onClick={() => { isCompleted(todo.id) }} type="checkbox" defaultChecked={`${todo.isCompleted ? "checked" : ""}`} />
                 </li>
             </div>

@@ -3,4 +3,4 @@
 This project is developed with React and styled with tailwindcss.
 It's to be finished very soon
 
-![preview](./public/images/readme.png)
+![preview](./images/readme.png)
